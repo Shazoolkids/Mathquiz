@@ -12,20 +12,31 @@
 <div id="player_1"> </div>
 <div id="player_2"> </div>
 <body>
-  <div class=" col-lg-4 col-sm-8 col-xs-11 login_div1" >
-		<h3> Player 1 login for the game </h3>
-		<label> User name; </label>
-		<input type="text" id="player1_name_input" class="form-control" placeholder="Player 1 Name">
-		<br> 
-		</div>
-		<div class=" col-lg-4 col-sm-8 col-xs-11 login_div2">
-			<h3> Player 2 login for the game </h3>
-			<label> User name; </label>
-			<input type="text" id="player2_name_input" class="form-control" placeholder="Player 2 Name">
-		
-			<br> 
-			<button style="width:30%" class="btn btn-primary" onclick="addUser()"> Log in</button>
-		</div>
+	<h4 id="player1_name"> </h4> <span id="player1_score"> </span>
+	<br> 
+	<h4 id="player2_name"> </h4> <span id="player2_score"> </span>
+	<div class="container"> 
+		<center> 
+			<h2 style="color : white;"> The Math Quiz Game </h2>
+			
+			<div class=" col-lg-4 col-sm-8 col-xs-11 login_div1" >
+				<h3> Player 1 login for the game </h3>
+				<label> User name; </label>
+				<input type="text" id="player1_name_input" class="form-control" placeholder="Player 1 Name">
+				<br> 
+				</div>
+				<div class=" col-lg-4 col-sm-8 col-xs-11 login_div2">
+					<h3> Player 2 login for the game </h3>
+					<label> User name; </label>
+					<input type="text" id="player2_name_input" class="form-control" placeholder="Player 2 Name">
+				
+					<br> 
+					<button style="width:30%" class="btn btn-primary" onclick="addUser()"> Log in</button>
+				</div>
+
+		</center>
+	</div>
+ 
     
 </body>
 
